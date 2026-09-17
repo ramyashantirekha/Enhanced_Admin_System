@@ -1,0 +1,207 @@
+.event-form-page {
+  background: #eef0f3;
+  padding: 0 32px 40px;
+}
+
+.event-form-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0 24px;
+}
+
+.event-form-breadcrumb {
+  font-size: 15px;
+  color: #8a8f98;
+}
+
+.event-form-breadcrumb strong {
+  color: #14161a;
+}
+
+.event-toolbar-actions {
+  display: flex;
+  gap: 12px;
+}
+
+/* Buttons — explicit shared height so Cancel and Save Changes can never
+   render at mismatched heights, whatever else is happening in the CSS cascade. */
+.event-btn-secondary,
+.event-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 38px;
+  padding: 0 16px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.event-btn-secondary {
+  background: #ffffff;
+  color: #23262b;
+  border: 1px solid #d7dae0;
+}
+
+.event-btn-secondary:hover {
+  background: #f5f6f8;
+}
+
+.event-btn-primary {
+  background: #1e2a5e;
+  color: #ffffff;
+  border: none;
+}
+
+.event-btn-primary:hover {
+  background: #2a386f;
+}
+
+.event-btn-primary:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.event-form-error {
+  background: #fce8ea;
+  color: #c1272d;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 13.5px;
+  margin: 0 0 16px;
+}
+
+.event-form-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.event-card {
+  background: #ffffff;
+  border: 1px solid #e0e2e7;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.event-card h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 4px;
+  color: #14161a;
+}
+
+.event-card-subtitle {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 0 0 20px;
+}
+
+.event-image-dropzone {
+  border: 1.5px dashed #d7dae0;
+  border-radius: 8px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9096a0;
+  font-size: 13.5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background: #fafbfc;
+}
+
+.event-image-dropzone img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-field-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #8a8f98;
+  margin: 16px 0 6px;
+}
+
+.event-field-input {
+  width: 100%;
+  border: 1px solid #d7dae0;
+  border-radius: 7px;
+  padding: 9px 12px;
+  font-size: 13.5px;
+  color: #14161a;
+  background: #ffffff;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.event-field-input:focus {
+  outline: none;
+  border-color: #1e2a5e;
+}
+
+.event-field-row-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.event-field-row-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.event-rich-text-box {
+  border: 1px solid #d7dae0;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.event-rich-text-toolbar {
+  display: flex;
+  gap: 14px;
+  padding: 8px 14px;
+  background: #f6f7f9;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.event-rich-text-toolbar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: #23262b;
+}
+
+.event-rich-text-area {
+  width: 100%;
+  min-height: 110px;
+  border: none;
+  padding: 14px;
+  font-size: 13.5px;
+  font-family: inherit;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.event-rich-text-area:focus {
+  outline: none;
+}
+
+.event-form-state-message {
+  padding: 24px 32px;
+  color: #6b7280;
+  font-size: 13.5px;
+}

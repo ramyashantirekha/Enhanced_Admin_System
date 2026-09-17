@@ -1,0 +1,183 @@
+.schedule-page-body {
+  background: #eef0f3;
+  padding: 0 32px 32px;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.game-picker-panel {
+  background: #ffffff;
+  border: 1px solid #e0e2e7;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.game-picker-row {
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 12px 14px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #23262b;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.game-picker-row:hover {
+  background: #f5f6f8;
+}
+
+.game-picker-active {
+  background: #1e2a5e;
+  color: #ffffff;
+}
+
+.game-picker-row.game-picker-active:hover {
+  background: #1e2a5e;
+  color: #ffffff;
+}
+
+.table-wrap {
+  border: 1px solid #e0e2e7;
+  border-radius: 10px;
+  overflow-x: auto;
+  background: #fff;
+}
+
+.schedule-table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.schedule-table thead th {
+  text-align: left;
+  padding: 12px 20px;
+  background: #f6f7f9;
+  color: #8a8f98;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.schedule-table tbody td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #eef0f3;
+  vertical-align: middle;
+}
+
+.schedule-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.heat-label {
+  font-weight: 700;
+  color: #14161a;
+  white-space: nowrap;
+}
+
+.field-input {
+  border: 1px solid #d7dae0;
+  border-radius: 7px;
+  padding: 8px 10px;
+  font-size: 13px;
+  color: #14161a;
+  background: #ffffff;
+}
+
+.field-input:focus {
+  outline: none;
+  border-color: #1e2a5e;
+}
+
+.field-input-narrow {
+  width: 90px;
+}
+
+.field-input-date {
+  width: 140px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.status-completed {
+  background: #e3f3e6;
+  color: #2e7d32;
+}
+
+.status-live {
+  background: #fce8ea;
+  color: #c1272d;
+}
+
+.status-scheduled {
+  background: #e6e9fb;
+  color: #2f4bd6;
+}
+
+.status-delayed {
+  background: #fdf1d6;
+  color: #a06a00;
+}
+
+.running-order-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.order-arrow {
+  background: none;
+  border: none;
+  color: #8a8f98;
+  font-size: 11px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.order-arrow:hover:not(:disabled) {
+  color: #1e2a5e;
+}
+
+.order-arrow:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.order-number {
+  font-weight: 700;
+  color: #14161a;
+  min-width: 14px;
+  text-align: center;
+}
+
+.state-message {
+  padding: 20px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.state-message.error {
+  color: #c1272d;
+}

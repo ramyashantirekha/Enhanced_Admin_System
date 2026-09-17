@@ -1,0 +1,45 @@
+.page-breadcrumb {
+  padding: 18px 32px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #23262b;
+  border-bottom: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.page-header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 28px 32px 20px;
+  background: #eef0f3;
+}
+
+.page-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #14161a;
+  margin: 0 0 6px 0;
+}
+
+.page-description {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.page-header-action button,
+.page-header-action {
+  background: #1e2a5e;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.page-header-action button:hover {
+  background: #2a386f;
+}

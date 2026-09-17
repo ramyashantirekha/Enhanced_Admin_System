@@ -1,0 +1,130 @@
+.syslist-page-body {
+  padding: 24px 32px;
+}
+
+.syslist-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.syslist-domains-panel {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.syslist-domain-btn {
+  text-align: left;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  font-size: 13px;
+  font-weight: 600;
+  color: #1f2937;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.syslist-domain-btn:hover {
+  background: #f3f4f6;
+}
+
+.syslist-domain-btn-active {
+  background: #1e3a8a;
+  color: #fff;
+  font-weight: 700;
+}
+
+.syslist-domain-btn-active:hover {
+  background: #1e3a8a;
+}
+
+.syslist-values-panel {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.syslist-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.syslist-table thead th {
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6b7280;
+  font-weight: 700;
+  padding: 12px 18px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.syslist-table tbody td {
+  padding: 13px 18px;
+  border-bottom: 1px solid #f1f2f4;
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+.syslist-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.syslist-value-cell {
+  font-weight: 800;
+  color: #111827;
+  letter-spacing: 0.02em;
+}
+
+.syslist-description-cell {
+  color: #1f2937;
+}
+
+.syslist-sort-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.syslist-arrow-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 11px;
+  color: #1f2937;
+  padding: 2px 4px;
+  font-family: inherit;
+}
+
+.syslist-arrow-btn:disabled {
+  color: #d1d5db;
+  cursor: not-allowed;
+}
+
+.syslist-sort-number {
+  font-weight: 700;
+  color: #111827;
+  min-width: 12px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.syslist-state-message {
+  color: #6b7280;
+  font-size: 12px;
+  padding: 14px;
+}
+
+.syslist-state-error {
+  color: #b91c1c;
+}

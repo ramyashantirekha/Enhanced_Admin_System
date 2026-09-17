@@ -1,0 +1,133 @@
+.games-page-body {
+  background: #eef0f3;
+  padding: 0 32px 32px;
+}
+
+.table-wrap {
+  border: 1px solid #e0e2e7;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.games-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.games-table thead th {
+  text-align: left;
+  padding: 12px 22px;
+  background: #f6f7f9;
+  color: #8a8f98;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.games-table tbody td {
+  padding: 14px 22px;
+  border-bottom: 1px solid #eef0f3;
+  vertical-align: middle;
+}
+
+.games-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.games-table tbody tr:hover {
+  background: #fafbfc;
+}
+
+.game-name {
+  font-weight: 700;
+  font-size: 14px;
+  color: #14161a;
+}
+
+.muted {
+  color: #6b7280;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.status-live {
+  background: #fce8ea;
+  color: #c1272d;
+}
+
+.status-completed {
+  background: #e3f3e6;
+  color: #2e7d32;
+}
+
+.status-upcoming {
+  background: #fdf1d6;
+  color: #a06a00;
+}
+
+.status-scheduled {
+  background: #e6e9fb;
+  color: #2f4bd6;
+}
+
+.status-archived {
+  background: #eceef1;
+  color: #6b7280;
+}
+
+.status-draft {
+  background: #eceef1;
+  color: #6b7280;
+}
+
+.row-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* margin:0 added — browsers apply a default button margin in some cases,
+   which can nudge the first link a couple pixels right of the header's
+   exact left edge even though text-align/flex alignment is correct. */
+.btn-link {
+  background: none;
+  border: none;
+  color: #1e2a5e;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.table-footnote {
+  margin: 14px 0 0;
+  color: #8a8f98;
+  font-size: 12.5px;
+}
+
+.state-message {
+  padding: 20px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.state-message.error {
+  color: #c1272d;
+}

@@ -1,0 +1,116 @@
+.sysvar-page-body {
+  padding: 24px 32px;
+}
+
+.sysvar-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 640px;
+}
+
+.sysvar-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.sysvar-card h2 {
+  font-size: 17px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.sysvar-card-subtitle {
+  color: #6b7280;
+  font-size: 13px;
+  margin: 4px 0 20px;
+}
+
+.sysvar-toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sysvar-toggle {
+  width: 52px;
+  height: 28px;
+  border-radius: 999px;
+  border: none;
+  background: #d1d5db;
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.15s ease;
+}
+
+.sysvar-toggle-on {
+  background: #1e3a8a;
+}
+
+.sysvar-toggle:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.sysvar-toggle-knob {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  transition: left 0.15s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.sysvar-toggle-on .sysvar-toggle-knob {
+  left: 27px;
+}
+
+.sysvar-toggle-label {
+  font-weight: 700;
+  color: #111827;
+  font-size: 14px;
+}
+
+.sysvar-field-block {
+  margin-bottom: 16px;
+}
+
+.sysvar-field-block:last-child {
+  margin-bottom: 0;
+}
+
+.sysvar-field-label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6b7280;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.sysvar-field-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.sysvar-state-message {
+  color: #6b7280;
+  font-size: 13px;
+  padding: 14px;
+}
+
+.sysvar-state-error {
+  color: #b91c1c;
+}

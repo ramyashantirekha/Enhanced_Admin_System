@@ -1,0 +1,140 @@
+.country-form-page {
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.country-form-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.country-form-breadcrumb {
+  color: #6b7280;
+  margin-right: auto;
+}
+
+.country-toolbar-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.country-form-error {
+  color: #b91c1c;
+  background: #fee2e2;
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+
+.country-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 24px;
+  align-items: start;
+  max-width: 1100px;
+}
+
+.country-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.country-card h2 {
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.country-card-subtitle {
+  color: #6b7280;
+  font-size: 13px;
+  margin: 6px 0 20px;
+}
+
+.country-flag-preview {
+  border: 1px dashed #d1d5db;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  background: #fafafa;
+}
+
+.country-flag-preview-img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.country-flag-preview-text {
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.country-field-label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6b7280;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.country-field-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.country-btn-primary,
+.country-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 42px;
+  padding: 0 22px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.country-btn-primary {
+  background: #1e3a8a;
+  color: #fff;
+  border: none;
+}
+
+.country-btn-secondary {
+  background: #fff;
+  color: #1f2937;
+  border: 1px solid #d1d5db;
+}
+
+.country-toolbar-actions .country-btn-primary,
+.country-toolbar-actions .country-btn-secondary {
+  min-width: 168px;
+}
+
+.country-state-message {
+  color: #6b7280;
+  font-size: 13px;
+  padding: 16px;
+}

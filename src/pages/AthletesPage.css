@@ -1,0 +1,194 @@
+.athletes-page-body {
+  background: #eef0f3;
+  padding: 0 32px 32px;
+}
+
+.filters-row {
+  display: flex;
+  gap: 14px;
+  padding: 20px 0;
+}
+
+.filter-select {
+  border: 1px solid #d7dae0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13.5px;
+  color: #23262b;
+  background: #ffffff;
+  min-width: 180px;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #1e2a5e;
+}
+
+.table-wrap {
+  border: 1px solid #e0e2e7;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.athletes-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.athletes-table thead th {
+  text-align: left;
+  padding: 12px 22px;
+  background: #f6f7f9;
+  color: #8a8f98;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.athletes-table tbody td {
+  padding: 8px 22px;
+  border-bottom: 1px solid #eef0f3;
+  vertical-align: middle;
+}
+
+.athletes-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.athletes-table tbody tr:hover {
+  background: #fafbfc;
+}
+
+.athlete-name-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #d9dce1;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.athlete-name {
+  font-weight: 700;
+  color: #14161a;
+}
+
+.muted {
+  color: #6b7280;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.status-enhanced {
+  background: #dce9fb;
+  color: #1e3a63;
+}
+
+.status-not-enhanced {
+  background: #eceef1;
+  color: #5f6672;
+}
+
+.status-undeclared {
+  background: #eceef1;
+  color: #9096a0;
+}
+
+.row-actions {
+  text-align: left;
+  vertical-align: middle;
+  padding: 0 22px;
+}
+
+.action-cell-inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  min-height: 40px;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #1e2a5e;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.pagination-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 4px 0;
+}
+
+.pagination-summary {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.pagination-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-secondary {
+  background: #ffffff;
+  color: #23262b;
+  border: 1px solid #d7dae0;
+  border-radius: 6px;
+  padding: 7px 14px;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: #f5f6f8;
+}
+
+.btn-secondary:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.state-message {
+  padding: 20px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.state-message.error {
+  color: #c1272d;
+}

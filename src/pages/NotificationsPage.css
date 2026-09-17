@@ -1,0 +1,175 @@
+.notifications-page-body {
+  background: #eef0f3;
+  padding: 0 32px 32px;
+}
+
+.tab-row {
+  display: flex;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.tab-btn {
+  background: #ffffff;
+  color: #23262b;
+  border: 1px solid #d7dae0;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tab-btn-active {
+  background: #1e2a5e;
+  color: #ffffff;
+  border-color: #1e2a5e;
+}
+
+.filters-row {
+  display: flex;
+  gap: 14px;
+  padding-bottom: 20px;
+}
+
+.filter-select {
+  border: 1px solid #d7dae0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13.5px;
+  color: #23262b;
+  background: #ffffff;
+  min-width: 160px;
+}
+
+.table-wrap {
+  border: 1px solid #e0e2e7;
+  border-radius: 10px;
+  overflow-x: auto;
+  background: #fff;
+}
+
+.notifications-table {
+  width: 100%;
+  min-width: 1000px;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.notifications-table thead th {
+  text-align: left;
+  padding: 12px 20px;
+  background: #f6f7f9;
+  color: #8a8f98;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e7eb;
+  white-space: nowrap;
+}
+
+.notifications-table tbody td {
+  padding: 14px 20px;
+  border-bottom: 1px solid #eef0f3;
+  vertical-align: middle;
+}
+
+.notifications-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.notif-title {
+  font-weight: 700;
+  color: #14161a;
+  max-width: 260px;
+}
+
+.notif-message {
+  color: #6b7280;
+  max-width: 320px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.notif-message em {
+  font-style: italic;
+  color: #9096a0;
+}
+
+.muted {
+  color: #6b7280;
+  white-space: nowrap;
+}
+
+.type-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  background: #eceef1;
+  color: #6b7280;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.status-draft {
+  background: #e6e9fb;
+  color: #2f4bd6;
+}
+
+.status-published {
+  background: #e3f3e6;
+  color: #2e7d32;
+}
+
+.row-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  white-space: nowrap;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #1e2a5e;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.remove-x {
+  color: #9096a0;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 2px 4px;
+}
+
+.remove-x:hover {
+  color: #c1272d;
+}
+
+.state-message {
+  padding: 20px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.state-message.error {
+  color: #c1272d;
+}

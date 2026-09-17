@@ -1,0 +1,88 @@
+.country-page-body {
+  padding: 24px 32px;
+}
+
+.country-table-wrap {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.country-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.country-table thead th {
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6b7280;
+  font-weight: 700;
+  padding: 14px 18px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.country-table tbody td {
+  padding: 16px 18px;
+  border-bottom: 1px solid #f1f2f4;
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+.country-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.country-flag-cell {
+  width: 48px;
+}
+
+.country-flag-thumb {
+  display: block;
+  width: 32px;
+  height: 22px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.country-flag-thumb-empty {
+  background: #e5e7eb;
+}
+
+.country-code-cell {
+  color: #6b7280;
+  letter-spacing: 0.04em;
+}
+
+.country-name-cell {
+  font-weight: 700;
+  color: #111827;
+}
+
+.country-actions-cell {
+  text-align: left;
+}
+
+.country-edit-link {
+  background: none;
+  border: none;
+  color: #1e3a8a;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+}
+
+.country-state-message {
+  color: #6b7280;
+  font-size: 13px;
+  padding: 16px;
+}
+
+.country-state-error {
+  color: #b91c1c;
+}

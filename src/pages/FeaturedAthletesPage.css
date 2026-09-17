@@ -1,0 +1,203 @@
+.fa-page-body {
+  padding: 24px 32px;
+}
+
+.fa-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+/* Left panel: games list */
+.fa-games-panel {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.fa-game-btn {
+  text-align: left;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1f2937;
+  cursor: pointer;
+}
+
+.fa-game-btn:hover {
+  background: #f3f4f6;
+}
+
+.fa-game-btn-active {
+  background: #1e3a8a;
+  color: #fff;
+  font-weight: 700;
+}
+
+.fa-game-btn-active:hover {
+  background: #1e3a8a;
+}
+
+/* Right panel: featured athletes list */
+.fa-list-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.fa-list-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa-add-btn {
+  width: auto;
+  padding: 10px 20px;
+}
+
+.fa-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fa-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 14px 18px;
+}
+
+.fa-index {
+  width: 20px;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.fa-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  flex-shrink: 0;
+}
+
+.fa-info {
+  flex: 1;
+}
+
+.fa-name {
+  font-weight: 700;
+  color: #111827;
+}
+
+.fa-sport {
+  font-size: 13px;
+}
+
+.fa-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.fa-arrow-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: #1f2937;
+  padding: 2px 4px;
+}
+
+.fa-arrow-btn:disabled {
+  color: #d1d5db;
+  cursor: not-allowed;
+}
+
+.fa-remove {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Modal */
+.fa-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.fa-modal {
+  background: #fff;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 620px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.fa-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 28px 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.fa-modal-header h2 {
+  margin: 0 0 4px;
+  font-size: 20px;
+}
+
+.fa-modal-close {
+  color: #6b7280;
+  cursor: pointer;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.fa-modal-body {
+  padding: 16px 28px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fa-modal-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px 16px;
+}
+
+.fa-add-link {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.fa-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 28px 24px;
+  border-top: 1px solid #e5e7eb;
+}

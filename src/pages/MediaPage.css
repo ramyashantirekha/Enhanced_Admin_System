@@ -1,0 +1,144 @@
+.media-page-body {
+  padding: 24px 32px;
+}
+
+.media-table-wrap {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.media-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.media-table thead th {
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6b7280;
+  font-weight: 700;
+  padding: 14px 18px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.media-table tbody td {
+  padding: 16px 18px;
+  border-bottom: 1px solid #f1f2f4;
+  vertical-align: top;
+  font-size: 13px;
+}
+
+.media-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.media-description {
+  max-width: 340px;
+}
+
+.media-url-cell {
+  max-width: 220px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #1f2937;
+}
+
+.media-linked-cell {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 420px;
+}
+
+.media-muted {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.media-row-actions {
+  white-space: nowrap;
+}
+
+.media-edit-link {
+  background: none;
+  border: none;
+  color: #1e3a8a;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+}
+
+.media-state-message {
+  color: #6b7280;
+  font-size: 13px;
+  padding: 16px;
+}
+
+.media-state-error {
+  color: #b91c1c;
+}
+
+.media-type-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+.media-type-live {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.media-type-replay {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.media-type-interview {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.media-type-promo {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.media-link-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.media-link-game {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.media-link-event {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.media-link-heat {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.media-link-athlete {
+  background: #f3e8ff;
+  color: #7e22ce;
+}

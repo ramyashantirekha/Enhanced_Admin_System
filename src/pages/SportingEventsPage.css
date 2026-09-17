@@ -1,0 +1,89 @@
+.events-page-body {
+  background: #eef0f3;
+  padding: 0 32px 32px;
+}
+
+.table-wrap {
+  border: 1px solid #e0e2e7;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.events-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.events-table thead th {
+  text-align: left;
+  padding: 12px 22px;
+  background: #f6f7f9;
+  color: #8a8f98;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.events-table tbody td {
+  padding: 14px 22px;
+  border-bottom: 1px solid #eef0f3;
+  vertical-align: middle;
+}
+
+.events-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.events-table tbody tr:hover {
+  background: #fafbfc;
+}
+
+.event-name {
+  font-weight: 700;
+  color: #14161a;
+}
+
+.muted {
+  color: #6b7280;
+}
+
+.row-actions {
+  text-align: left;
+  vertical-align: middle;
+  padding: 0 22px;
+}
+
+.action-cell-inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  min-height: 40px;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #1e2a5e;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.state-message {
+  padding: 20px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.state-message.error {
+  color: #c1272d;
+}
