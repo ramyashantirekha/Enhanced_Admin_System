@@ -4,21 +4,6 @@ import { supabase } from '../lib/supabaseClient'
 import PageHeader from '../components/PageHeader'
 import './NotificationFormPage.css'
 
-type NotificationRow = {
-  id: number
-  notification_type: string | null
-  title: string | null
-  message: string | null
-  audience: string | null
-  link: string | null
-  duration_ms: number | null
-  starts_at: string | null
-  expires_at: string | null
-  status: string | null
-  last_published_at: string | null
-  last_published_by: string | null
-}
-
 const TYPE_LABELS: Record<string, string> = { GNRL: 'General' }
 const AUDIENCE_LABELS: Record<string, string> = { GLBL: 'Global' }
 

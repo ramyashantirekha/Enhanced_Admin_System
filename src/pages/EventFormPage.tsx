@@ -4,21 +4,6 @@ import { supabase } from '../lib/supabaseClient'
 import PageHeader from '../components/PageHeader'
 import './EventFormPage.css'
 
-type EventRow = {
-  event_id: number
-  event_name: string | null
-  sport: string | null
-  gender: string | null
-  event_category: string | null
-  official_wr: number | null
-  enhanced_wr: number | null
-  official_wr_holder: string | null
-  official_wr_year: number | null
-  description: string | null
-  rules: string | null
-  event_image_url: string | null
-}
-
 const TIME_SPORTS = ['SWIMMING', 'TRACK']
 
 const GENDER_OPTIONS = [

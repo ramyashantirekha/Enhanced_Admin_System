@@ -22,9 +22,6 @@ type EligibleAthlete = {
   sport: string | null
 }
 
-// No auth/session tracking yet — same placeholder used elsewhere (Notifications).
-const currentUser = 'Admin'
-
 export default function FeaturedAthletesPage() {
   const [games, setGames] = useState<Game[]>([])
   const [selectedGameId, setSelectedGameId] = useState<string | null>(null)

@@ -165,6 +165,7 @@ export default function SystemVariablesPage() {
                     onChange={(e) => handleUrlChange(row.env, e.target.value)}
                     onBlur={() => handleUrlBlur(row)}
                     placeholder="https://something-here"
+                    disabled={savingEnv === row.env}
                   />
                 </div>
               ))}
