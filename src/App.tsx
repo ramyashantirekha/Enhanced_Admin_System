@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import Layout from './components/Layout'
 import AthletesPage from './pages/AthletesPage'
 import AthleteFormPage from './pages/AthleteFormPage'
@@ -24,6 +24,7 @@ function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
+        <Route path="/" element={<Navigate to="/athletes" replace />} />
         <Route path="/athletes" element={<AthletesPage />} />
         <Route path="/athletes/new" element={<AthleteFormPage />} />
         <Route path="/athletes/edit/:athleteId" element={<AthleteFormPage />} />
