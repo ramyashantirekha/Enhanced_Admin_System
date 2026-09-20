@@ -18,6 +18,7 @@ import CountriesPage from './pages/CountriesPage'
 import CountryFormPage from './pages/CountryFormPage'
 import SystemListsPage from './pages/SystemListsPage'
 import SystemVariablesPage from './pages/SystemVariablesPage'
+import SystemAuditPage from './pages/SystemAuditPage'
 import './App.css'
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
         <Route path="/countries/edit/:countryCode" element={<CountryFormPage />} />
         <Route path="/system-lists" element={<SystemListsPage />} />
         <Route path="/system-variables" element={<SystemVariablesPage />} />
+        <Route path="/system-audit" element={<SystemAuditPage />} />
       </Route>
     </Routes>
   )

@@ -36,6 +36,7 @@ const nav: { group: string; items: NavItem[] }[] = [
     items: [
       { label: 'System Lists', path: '/system-lists' },
       { label: 'System Variables', path: '/system-variables' },
+      { label: 'System Audit', path: '/system-audit' },
     ],
   },
 ]
